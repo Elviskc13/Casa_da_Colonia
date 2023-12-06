@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+body{
+   font-family: Germania One;
+}
+#Container_Info{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 4%;
+    margin-top: 40px;
+}
+.Mostrar_Info_Perfil {
+    margin-top: 9px;
+    height: 420px;
+    width: 400px;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+#Txt_Info{
+    margin-left: 6%;
+    margin-top: 4%;
+    font-size: larger;
+}
+#Img_Perfil {
+    border-radius: 50%;
+    border: 2px solid #000000;
+    position: absolute;
+    margin-left: 15px;
+}
+#Img_Background {
+    height: 100%;
+    width: 100%;
+}
+#Imagens {
+    align-items: center;
+    justify-content: start;
+    display: flex;
+}
+#Txt_Alterar_Senha{
+    color: inherit;
+}
+#Container_Input {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    border-right: 100px;
+}
+.botao {
+    background-color: #4B3621;
+    color: white;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.botao:hover {
+    background-color: #3a2918;
+}
+input {
+    width: 100%;
+    background-color: #D9D9D9;
+    border: 1px solid #000000; /* Borda sólida e cor cinza */
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    border-color: #d9d9d9;
+}
+.Txt_Input {
+    font-size: 25px;
+
+}
+.decoration_input {
+    background-color: #D9D9D9;
+    border-radius: 7px;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#Img_Camera {
+    width: 250px;
+    height: 250px;
+}
